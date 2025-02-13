@@ -8,9 +8,17 @@ The `netplan.sh` script allows you to configure a static IP address for your sys
 
 ### Usage
 
+#### Update netplan
+
 ```bash
 curl -sLO https://raw.githubusercontent.com/quangvinh2080/provisioning-scripts/main/netplan.sh
 sudo ./netplan.sh 
+```
+
+#### Install docker
+
+```bash
+curl -o- https://raw.githubusercontent.com/quangvinh2080/provisioning-scripts/main/docker.sh|bash
 ```
 
 ### Features
