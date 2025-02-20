@@ -12,6 +12,7 @@ The `netplan.sh` script allows you to configure a static IP address for your sys
 
 ```bash
 curl -sLO https://raw.githubusercontent.com/quangvinh2080/provisioning-scripts/main/netplan.sh
+sudo chmod +x ./netplan.sh
 sudo ./netplan.sh 
 ```
 
