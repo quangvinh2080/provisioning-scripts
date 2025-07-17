@@ -22,6 +22,12 @@ sudo ./netplan.sh
 curl -o- https://raw.githubusercontent.com/quangvinh2080/provisioning-scripts/main/docker.sh|bash
 ```
 
+#### Install k3s with helm
+
+```bash
+curl -o- https://raw.githubusercontent.com/quangvinh2080/provisioning-scripts/main/k3s-with-helm.sh|bash
+```
+
 ### Features
 - Prompts for user input (IP, gateway, DNS servers)
 - Modifies Netplan configuration
